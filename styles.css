@@ -213,7 +213,6 @@ nav a:hover {
 }
 
 .project-card {
-  border:1px solid hsl(220, 13%, 88%);
   padding-top: 20px;
   border-radius: 12px;
   overflow: hidden;
@@ -271,7 +270,7 @@ nav a:hover {
 }
 
 .project-link:hover {
-  background: hsl(220, 17%, 17%);
+  background: hsl(0, 0%, 20%);
   color: white;
 }
 

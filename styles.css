@@ -112,30 +112,36 @@ nav a:hover {
 
 .hero-buttons {
   display: flex;
-  flex-wrap: wrap;
   gap: 16px;
-  margin-bottom: 0px;
+  width: fit-content;
+  padding:0;
+  margin-top: 20px;
 }
 
+
 .hero-btn1,.hero-btn {
+  display: inline-flex;
+  align-items: center;
   padding: 14px 28px;
+  justify-content: center;
   border-radius: 8px;
   text-decoration: none;
   font-weight: 600;
+  white-space: nowrap;
+  transition: all 0.2s;
+  margin:0;
 }
 
 .hero-btn1 {
   background: hsl(220, 17%, 7%);
   color: white;
-  white-space: nowrap;  display: inline-block;
+  margin-bottom: 10px;
+
 }
 
 .hero-btn {
   border: 1px solid hsl(220, 17%, 7%);
   color: hsl(220, 17%, 7%);
-  white-space: nowrap;  
-  display: inline-block;
-  transition: all 0.2s;
 }
 
 .hero-btn1:hover {
